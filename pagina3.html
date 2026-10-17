@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina3-Leopardo</title>
+        <!--Importacion del CSS de Bootstrap v5.3.3-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: whitesmoke;
+            }
+            header {
+                background-color: orange;
+                padding: 15px;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            nav  a:hover {
+                color: antiquewhite;
+            }
+            /* Resalta la pagina actual */
+            nav a.activo {
+                text-decoration: underline;
+                color: orangered;
+            }
+            .contenido {
+                padding: 30px;
+            }
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: burlywood;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="pagina1.html">Pagina 1</a>
+                <a href="pagina2.html">Pagina 2</a> <!--Pagina actual-->
+                <a href="pagina3.html" class="activo">Pagina 3</a> <!--Pagina actual-->
+            </nav>
+        </header>
+
+        <div class="container contenido">
+            <h1>EL leopardo: El Maestro del camuflaje</h1>
+            <!--Componente de bootsrtap:alerta-->
+            <div class="alert alert-warning text-center" role="alert">
+               ¡Increíble fuerza! Un leopardo puede subir presas más pesadas que él a las ramas de los árboles            
+            </div>
+
+            <p>El leopardo (Panthera pardus) es uno de los felinos más versátiles del mundo, famoso por su increíble agilidad, resistencia y una fuerza física descomunal en proporción a su tamaño. Este felino es capaz de trepar árboles corpulentos de manera vertical e incluso izar presas que duplican su propio peso, como antílopes o cebras jóvenes, con el único objetivo de poner el alimento a salvo y fuera del alcance de carroñeros terrestres como hienas y leones.</p>
+            <p>Su piel destaca por tener hermosas manchas oscuras agrupadas en forma de rosetas sin puntos en su interior, un rasgo físico clave que lo diferencia del jaguar. Esta coloración disruptiva les otorga un camuflaje prácticamente perfecto en la vegetación densa, permitiéndoles mimetizarse entre las luces y sombras de los bosques, selvas y praderas de África y Asia.</p>
+            <p>Son cazadores solitarios de hábitos principalmente nocturnos y sumamente sigilosos. Su agudo sentido de la vista adaptada a la oscuridad y un oído altamente sensible les permiten rastrear presas de diversos tamaños durante la noche, acercándose a pocos metros de ellas antes de lanzar un ataque sorpresivo y letal sin ser detectados.</p>
+            <div class="row mt-4">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="imagenes/Leopardo descansando.jpg" class="card-img-top" alt="Leopardo en un arbol">
+                        <div class="card-body text-center">
+                            <p class="card-text"> Leopardo en un arbol</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="imagenes/saltodeleopardo.jpg" class="card-img-top" alt="Salto de leopardo">
+                        <div class="card-body text-center">
+                            <p class="card-text"> Salto de leopardo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="imagenes/leopardo con melanismo.jpg" class="card-img-top" alt="Leopardo con melanismo">
+                        <div class="card-body text-center">
+                            <p class="card-text"> Leopardo con melanismo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

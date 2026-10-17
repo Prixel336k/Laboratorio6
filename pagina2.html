@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina2-Tigre</title>
+        <!--Importacion del CSS de Bootstrap v5.3.3-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: whitesmoke;
+            }
+            header {
+                background-color: orange;
+                padding: 15px;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            nav  a:hover {
+                color: antiquewhite;
+            }
+            /* Resalta la pagina actual */
+            nav a.activo {
+                text-decoration: underline;
+                color: orangered;
+            }
+            .contenido {
+                padding: 30px;
+            }
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: burlywood;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="pagina1.html">Pagina 1</a>
+                <a href="pagina2.html" class="activo">Pagina 2</a> <!--Pagina actual-->
+                <a href="pagina3.html">Pagina 3</a>
+            </nav>
+        </header>
+
+        <div class="container contenido">
+            <h1>EL tigre: El felino mas grande</h1>
+            <!--Componente de bootsrtap:alerta-->
+            <div class="alert alert-warning text-center" role="alert">
+                ¡Sabías que! A diferencia de muchos gatos domésticos a los tigres les encanta nadar y el agua            
+            </div>
+
+            <p>El tigre (Panthera tigris) es el félido más grande del mundo y una de las especies más imponentes de la subfamilia de los panterinos pertenecientes al género Panthera. A diferencia de otros grandes felinos, es un depredador ágil, territorial y solitario que habita principalmente en los bosques densos, manglares, zonas montañosas y sabanas del continente asiático, adaptándose a climas que van desde los bosques tropicales hasta la taiga siberiana.</p>        
+            <p>Su característico pelaje anaranjado con rayas oscuras no solo es llamativo, sino que también le proporciona un camuflaje disruptivo sumamente eficiente. Este diseño evolutivo le permite desvanecerse entre las sombras de las hierbas altas y los árboles de la selva mientras acecha silenciosamente a sus presas, asegurando el éxito de sus ataques antes de que noten su presencia.</p>
+            <p>Cada patrón de rayas en un tigre es totalmente único, equivalente a las huellas dactilares en los seres humanos; de hecho, estas marcas no están solo en el pelo, sino grabadas directamente en su piel. No existen dos tigres en el mundo que compartan exactamente el mismo diseño, lo que permite a los investigadores identificar a cada individuo en su entorno natural.</p>
+            <div class="row mt-4">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="imagenes/tigre.jpg" class="card-img-top" alt="Tigre de bengala">
+                        <div class="card-body text-center">
+                            <p class="card-text"> Tigre de bengala</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="imagenes/tigre descansando.jpg" class="card-img-top" alt="Tigre reposando">
+                        <div class="card-body text-center">
+                            <p class="card-text"> Tigre descansando</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="imagenes/mirada de tigre.jpg" class="card-img-top" alt="Mirada de tigre">
+                        <div class="card-body text-center">
+                            <p class="card-text"> Mirada de tigre</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

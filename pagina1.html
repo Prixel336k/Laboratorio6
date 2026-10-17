@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina1-Leon</title>
+        <!--Importacion del CSS de Bootstrap v5.3.3-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: whitesmoke;
+            }
+            header {
+                background-color: orange;
+                padding: 15px;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            nav  a:hover {
+                color: antiquewhite;
+            }
+            /* Resalta la pagina actual */
+            nav a.activo {
+                text-decoration: underline;
+                color: orangered;
+            }
+            .contenido {
+                padding: 30px;
+            }
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: burlywood;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="pagina1.html" class="activo">Pagina 1</a> <!--Pagina actual-->
+                <a href="pagina2.html">Pagina 2</a>
+                <a href="pagina3.html">Pagina 3</a>
+            </nav>
+        </header>
+
+        <div class="container contenido">
+            <h1>EL leon: El rey de la sabana</h1>
+            <!--Componente de bootsrtap:alerta-->
+            <div class="alert alert-warning text-center" role="alert">
+                ¡Dato curioso! Los leones son los únicos felinos que viven en manadas sociales.            
+            </div>
+
+            <p>El león (Panthera leo) es un mamífero carnívoro de la familia de los félidos y una de las cinco especies del género Panthera. Conocido popularmente como el "rey de la selva" (aunque habita principalmente en la sabana), destaca por su imponente físico. Algunos machos excepcionalmente grandes llegan a pesar hasta 250 kg, lo que los convierte en el segundo félido viviente más grande del planeta, superado únicamente por el tigre. Su presencia es vital para el equilibrio de los ecosistemas, ya que actúa como un superpredador regulador de las poblaciones de herbívoros.</p>
+            <p>Actualmente, los leones salvajes viven en poblaciones cada vez más dispersas y fragmentadas debido a la pérdida de hábitat y la caza furtiva. Aunque su territorio histórico abarcaba gran parte de África, Asia y Europa, hoy en día están confinados principalmente al África subsahariana, junto con una pequeña y vulnerable población en el Parque Nacional del Bosque de Gir, en el noroeste de la India.
+            Una de sus características físicas más reconocibles es la melena del león macho. Esta corona de pelo varía en color desde el rubio hasta el negro intenso; una melena más oscura y densa suele indicar un excelente estado de salud, niveles altos de testosterona y una mayor capacidad de protección para la manada.</p>
+            <p>Dentro de la estructura social, las hembras de la manada (las leonas) suelen realizar la mayor parte de la cacería de forma coordinada. Al ser más pequeñas, ágiles y rápidas que los machos, trabajan en equipo utilizando estrategias complejas para acorralar a presas grandes como cebras, ñus, búfalos e incluso jirafas. Aprovechan la vegetación alta de la sabana para ocultarse y acechar pacientemente antes de lanzar un ataque explosivo. A pesar de que ellas consiguen el alimento, los machos dominantes suelen ser los primeros en alimentarse debido a su rol prioritario en la defensa del territorio frente a hienas u otras manadas rivales.</p>
+            <div class="row mt-4">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="imagenes/leonmacho.jpg" class="card-img-top" alt="León macho">
+                        <div class="card-body text-center">
+                            <p class="card-text"> León macho con melena</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="imagenes/leona cazando.jpg" class="card-img-top" alt="Leona cazando">
+                        <div class="card-body text-center">
+                            <p class="card-text"> Leonas al asecho</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="imagenes/cachorrodeleon.jpg" class="card-img-top" alt="Cachorro de león">
+                        <div class="card-body text-center">
+                            <p class="card-text"> Cachorro de león</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
