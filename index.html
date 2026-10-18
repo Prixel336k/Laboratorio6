@@ -4,53 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pagina index</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: whitesmoke;
-            }
-            header {
-                background-color: orange;
-                padding: 15px;
-            }
-            nav a {
-                color: white;
-                text-decoration: none;
-                margin: 0 20px;
-                font-size: 18px;
-                font-weight: bold;
-            }
-            nav  a:hover {
-                color: antiquewhite;
-            }
-            /* Resalta la pagina actual */
-            nav a.activo {
-                text-decoration: underline;
-                color: orangered;
-            }                
-            .contenido {
-                padding: 40px;
-                text-align: center;
-            }
-            h1 {
-                font-size: 50px;
-                color: burlywood;
-            }
-            img {
-                max-width: 100%;
-                width: 450px;
-                height: auto;
-                border-radius: 8px;
-                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-                margin-top: 20px;
-            }
-        </style>
+        <link rel="stylesheet" href="estilos/style.css">
     </head>
-    <body>
-        <header>
-            <nav>
+    <body class="index-b">
+        <header class="index-b">
+            <nav class="index-b">
                 <a href="index.html"class="activo">Inicio</a> <!--Pagina actual-->
                 <a href="pagina1.html">Pagina 1</a>
                 <a href="pagina2.html">Pagina 2</a>
@@ -60,7 +18,7 @@
 
         <div class="contenido">
             <h1>Pagina de felinos</h1>
-            <img src="imagenes/felinos.jpg" alt="Imagen de felinos">
+            <img src="imagenes/felinos.jpg" alt="Imagen de felinos" class="index-b">
         </div>
 
     </body>
